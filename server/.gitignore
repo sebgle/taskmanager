@@ -1,23 +1,33 @@
-# Node modules directory
-/node_modules
-
-# Environment variables file
-.env
-
-# Logs
-/logs
+# Node.js dependencies
+node_modules/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# OS-specific files
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# IDE-specific files
-/.vscode
-/.idea
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Production build artifacts (if applicable)
-/dist
+# Build files
+dist/
+build/
+
+package-lock.json
+yarn.lock
