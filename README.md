@@ -9,3 +9,10 @@ Updates:
 - installed necessary dependencies
 - ran server locally using node.js
 - ran react app on the browser
+
+1/23:
+
+- set up MongoDB database
+- tested to make sure connection was achieved
+- created a user model for the database
+- tested CRUD operations + password hashing for user model using Jest (automation)
