@@ -1,29 +1,41 @@
-A collaborative task manager by Sebastian Le
+# Collaborative Task Manager  
+**By Sebastian Le**
 
-Updates:
+## Updates  
 
-1/22:
+### **1/22**  
+- Set up the GitHub repository.  
+- Created the basic folder structure.  
+- Installed necessary dependencies.  
+- Ran the server locally using Node.js.  
+- Ran the React app in the browser.  
 
-- set up the GitHub repository
-- created the basic folder structure
-- installed necessary dependencies
-- ran server locally using node.js
-- ran react app on the browser
+---
 
-1/23:
+### **1/23**  
+- Set up the MongoDB database.  
+- Verified the database connection.  
+- Created a user model for the database.  
+- Tested CRUD operations and password hashing for the user model using **Jest** (automated testing).  
+- Implemented the **registration (sign-up)** endpoint in the backend.  
+- Implemented the **login** endpoint with authentication using **JWT**.  
+- Implemented **protected route access** (controller + middleware).  
 
-- set up MongoDB database
-- tested to make sure connection was achieved
-- created a user model for the database
-- tested CRUD operations + password hashing for user model using Jest (automated)
-- implemented registration (sign-up) endpoint in the backend
-- implemented login endpoint with authentication (JWT)
-- implemented protected route access (controller + middleware)
+---
 
-1/24:
+### **1/24**  
+- Updated `userController.js` to ensure all tests passed.  
+- Added routes for methods such as:  
+  - **getAllUsers**  
+  - **getUserByID**  
+  - **deleteUser**  
+  - **updateUser**  
+- Performed additional testing on the user model with **Jest**.  
+- Refer to `/tests/1.24.tests.png` for a full log of tested features.  
 
-- performed additional testing on user model with Jest
-- todo:
-  - add pfp and bio to user model
-  - continue testing user model
-  - add more routes to user and auth
+---
+
+### **To-Do**  
+- Add **profile picture (pfp)** and **bio** fields to the user model.  
+- Continue testing the user model.  
+- Add more routes for **user** and **auth** functionalities.  
