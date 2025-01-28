@@ -17,8 +17,6 @@ const userSchema = new mongoose.Schema(
       },
     },
     password: { type: String, required: true },
-    pfp: { type: String, default: null },
-    bio: { type: String, maxlength: 500, default: "" },
   },
   { timestamps: true }
 );
